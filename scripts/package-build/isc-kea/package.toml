@@ -2,4 +2,4 @@
 name = "isc-kea"
 commit_id = "Kea-3.0.3"
 scm_url = "https://gitlab.isc.org/isc-projects/kea.git"
-pre_build_hook = "cd ..; ./prebuild.sh"
+build_cmd = "cd ..; ./build.sh"
